@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Montserrat;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: left bottom;
+    background-position-x: -350px;
+    background-position-y: 10px;
+    
+
+}
+
+.hero-image {
+    background-image: url("/img/rarefricalogofull.png"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+
+#background-image {
+    opacity: 0.4;
+}
+
+#fish{
+    padding: 8px;
+    padding-left: 5px;
+}
+
+button {
+    background-color: #FFC600;
+    border-radius: 25px;
+    color: black;
+    font-weight: bolder;
+    border: none;
+    padding: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
+
+}
+
+button:hover {
+    background-color: #004D1E;
+    color: #FFC600;
+}
+
+
+svg:hover {
+    color: #FFC600;
+    font-weight: bolder;
+    background-color: ;
+}
